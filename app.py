@@ -4,7 +4,7 @@ import joblib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-FREIGHT_MODEL_PATH = ROOT / "models" / "predict_freight_model.pkl"
+FREIGHT_MODEL_PATH = ROOT / "freight_cost_prediction" / "models" / "predict_freight_model.pkl"
 FLAG_MODEL_PATH = ROOT / "invoice_flagging" / "models" / "predict_flag_invoice.pkl"
 SCALER_PATH = ROOT / "invoice_flagging" / "models" / "scaler.pkl"
 
